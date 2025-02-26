@@ -1,0 +1,47 @@
+:root {
+  font-family: "Roboto", serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #282828;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --pr-tints-a0: #6381e2;
+  --pr-tints-a10: #778ee6;
+  --pr-tints-a20: #8a9be9;
+  --pr-tints-a30: #9ca9ed;
+  --pr-tints-a40: #adb7f0;
+  --pr-tints-a40: #bec5f3;
+
+  --sr-color-a0: #121212;
+  --sr-color-a10: #282828;
+  --sr-color-a20: #3f3f3f;
+  --sr-color-a30: #575757;
+  --sr-color-a40: #717171;
+  --sr-color-a50: #8b8b8b;
+
+  --tn-sr-color-a0: #1b1c24;
+  --tn-sr-color-a10: #303139;
+  --tn-sr-color-a20: #46474e;
+  --tn-sr-color-a30: #5e5f65;
+  --tn-sr-color-a40: #77777d;
+  --tn-sr-color-a50: #909195;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
