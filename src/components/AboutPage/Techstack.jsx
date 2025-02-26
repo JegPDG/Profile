@@ -55,32 +55,20 @@ const Techstack = () => {
         <div className='box-for-img'>
           <div className="imgCont">
             <div className="tech-box">
-              <img src={assets.html_icon} alt="" />
-              <p>HTML</p>
+              <img src={assets.asesprite_acon} alt="" />
+              <p>Aseprite</p>
             </div>
           </div>
           <div className="imgCont">
             <div className="tech-box">
-              <img src={assets.css_icon} alt="" />
-              <p>CSS</p>
+              <img src={assets.photoshop_icon} alt="" />
+              <p>Photoshop</p>
             </div>
           </div>
           <div className="imgCont">
             <div className="tech-box">
-              <img src={assets.js_icon} alt="" />
-              <p>Javascript</p>
-            </div>
-          </div>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.react_icon} alt="" />
-              <p>React.js</p>
-            </div>
-          </div>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.vscode_icon} alt="" />
-              <p>VS Code</p>
+              <img src={assets.illustrator_icon} alt="" />
+              <p>Illustrator</p>
             </div>
           </div>
         </div>

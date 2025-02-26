@@ -7,6 +7,7 @@ import react_icon from './reacticon.svg'
 import vscode_icon from './vscodeicon.svg'
 import photoshop_icon from './photoshopicon.svg'
 import illustrator_icon from './illustratoricon.svg'
+import asesprite_acon from '/.asepriteicon.svg'
 
 export const assets = {
   prof_pic,
@@ -18,4 +19,5 @@ export const assets = {
   vscode_icon,
   photoshop_icon,
   illustrator_icon,
+  asesprite_acon,
 }
