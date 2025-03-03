@@ -2,6 +2,9 @@ import React from 'react'
 import { assets } from '../../assets/assets'
 
 const Techstack = () => {
+
+  const frontIcon = [ {icon: assets.html_icon, name:'HTML'}, {icon: assets.css_icon, name:'CSS'}, {icon:assets.js_icon, name:'Javascript'}, {icon:assets.react_icon, name:'React.js'}, {icon: assets.vscode_icon, name:'VS Code'}]
+
   return (
     <div className='techStackMain'>
       <p className="techstackTitle">
@@ -13,38 +16,20 @@ const Techstack = () => {
         <p className="skill-title">
           Frontend Development
         </p>
-        <div className='box-for-img'>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.html_icon} alt="" />
-              <p>HTML</p>
-            </div>
-          </div>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.css_icon} alt="" />
-              <p>CSS</p>
-            </div>
-          </div>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.js_icon} alt="" />
-              <p>Javascript</p>
-            </div>
-          </div>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.react_icon} alt="" />
-              <p>React.js</p>
-            </div>
-          </div>
-          <div className="imgCont">
-            <div className="tech-box">
-              <img src={assets.vscode_icon} alt="" />
-              <p>VS Code</p>
-            </div>
-          </div>
-        </div>
+        <ul>
+          {frontIcon.map((front, index) => (
+            <li key={index}>
+              <div className='box-for-img'>
+                <div className="imgCont">
+                  <div className="tech-box">
+                    <img src={front.icon} alt="" />
+                    <p>{front.name} </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
 
 {/* SECOND PART */}

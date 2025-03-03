@@ -9,6 +9,24 @@
   margin: 0 auto;
 }
 
+.NavCont div{
+  display: flex;
+  gap: 5px;
+}
+
+.NavCont img{
+  width: 18px;
+}
+
+/* FOOTER */
+.Footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
 
 /* INTRO */
 
@@ -121,6 +139,13 @@
   gap: 1rem;
   margin-top: 1rem;
 
+}
+
+.technologies ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 5px;
 }
 
 .technologies .box-for-img{

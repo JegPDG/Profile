@@ -3,6 +3,7 @@ import './App.css'
 import About from './components/AboutPage/About'
 import NavBar from './components/NavBar'
 import Techstack from './components/AboutPage/TechStack'
+import { FooterComp } from './components/FooterComp'
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <NavBar/>
     <About/>
     <Techstack/>
+    <FooterComp/>
+
     </>
   )
 }
