@@ -2,14 +2,23 @@ import React from 'react'
 import './AboutPage/about.css'
 import { assets } from '../assets/assets'
 
-const NavBar = () => {
+const NavBar = (props) => {
+  const {setPage} = props;
+
+
   return (
     <div className='NavCont'>
-      <div>
+      <div  onClick={() => {
+          setPage(true)
+        }
+      }>
         <img src={assets.aboutIcon} alt="" />
        <p>About</p>
       </div>
-      <div>
+      <div  onClick={() => {
+          setPage(false)
+        }
+      }>
         <img src={assets.projectsIcon} alt="" />
         <p>Projects</p>
       </div>

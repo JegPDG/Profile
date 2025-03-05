@@ -7,14 +7,27 @@ import { FooterComp } from './components/FooterComp'
 
 
 function App() {
+  const [page, setPage] = useState(true);
 
   return (
     <>
-    <NavBar/>
-    <About/>
-    <Techstack/>
-    <FooterComp/>
-
+    <div className="app-cont">
+      <div className='upper'>
+        <NavBar page={page} setPage={setPage}/>
+        {page
+        ?
+        <> 
+        <About/>
+        <Techstack/>
+        </>
+        :
+        null
+        }
+      </div>
+      <div className='app-footer'>
+        <FooterComp/>
+      </div>
+    </div>
     </>
   )
 }

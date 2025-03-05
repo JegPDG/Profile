@@ -7,8 +7,6 @@ export const FooterComp = () => {
       <div>
         <img src={assets.facebookicon} alt="" />
         <img src={assets.instagramicon} alt="" />
-
-        
       </div>
     </div>
   )

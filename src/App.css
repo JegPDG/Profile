@@ -1,0 +1,11 @@
+.app-cont{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-cont .upper{
+  flex: 1;
+  padding: 0 20px;
+}
+
