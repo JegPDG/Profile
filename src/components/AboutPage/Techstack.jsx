@@ -6,6 +6,7 @@ const Techstack = () => {
   const frontIcon = [ {icon: assets.html_icon, name:'HTML'}, {icon: assets.css_icon, name:'CSS'}, {icon:assets.js_icon, name:'Javascript'}, {icon:assets.react_icon, name:'React.js'}, {icon: assets.vscode_icon, name:'VS Code'}]
 
   const graphicsList = [{icon: assets.asesprite_acon, name:'Aseprite'}, {icon: assets.photoshop_icon, name:'Photoshop'}, {icon: assets.illustrator_icon, name:'Illustrator'}]
+  
   return (
     <div className='techStackMain'>
       <p className="techstackTitle">

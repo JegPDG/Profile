@@ -5,9 +5,9 @@ const About = () => {
   return (
    <>
    <div className='contforIntro'>
-    <div className="bgImg">
+    {/* <div className="bgImg">
       <img src={assets.bg_img_squiggle} alt="" />
-    </div>
+    </div> */}
     <div className='introCont'>
         <div className="textCont">
           <p>Hi, it's Jeg</p>
