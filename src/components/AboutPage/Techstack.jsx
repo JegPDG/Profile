@@ -16,7 +16,7 @@ const Techstack = () => {
 {/* FIRST PART */}
       <div className="technologies">
         <p className="skill-title">
-          Frontend Development
+          Frontend Development fic
         </p>
         <ul>
           {frontIcon.map((front, index) => (
@@ -54,6 +54,7 @@ const Techstack = () => {
           ))}
         </ul>
         {/* <div className='box-for-img'>
+
           <div className="imgCont">
             <div className="tech-box">
               <img src={assets.asesprite_acon} alt="" />
